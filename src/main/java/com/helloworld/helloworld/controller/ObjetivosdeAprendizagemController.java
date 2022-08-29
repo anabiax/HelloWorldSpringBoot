@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/objetivos-semana")
-public class ObjetivosdeAprendizagem {
+public class ObjetivosdeAprendizagemController {
 	
 	@GetMapping
 	public String objetivos() {
