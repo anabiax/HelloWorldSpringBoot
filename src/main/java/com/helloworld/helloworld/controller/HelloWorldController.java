@@ -12,5 +12,6 @@ public class HelloWorldController {  //Classe é do tipo controladora rest, que 
 	public String helloWorld() {
 		return "Hello world.";
 	}
+	
 
 }
